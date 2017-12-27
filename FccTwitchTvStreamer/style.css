@@ -1,0 +1,57 @@
+.container {
+    background-color: #503483;
+    color: white;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    padding: 2%;
+}
+  
+h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+  
+.header {
+    font-size: 120%;
+    text-transform: uppercase;
+}
+  
+img {
+    border-radius: 50%;
+    width: 40%;
+}
+  
+.row {
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-bottom: 2%; 
+    padding: 1%;
+}
+  
+.offline {
+    background-color: #6441A4;
+    color: white;
+}
+  
+.streaming {
+    background-color: white;
+    color: #6441A4;
+}
+  
+@media only screen and (max-width: 1000px) {
+    body {
+      background-color: #503483;
+    }
+
+    .logo {
+      width: 25%;
+    }
+
+    .name {
+      width: 30%;
+    }
+
+    .status {
+      width: 40%;
+    }
+}
